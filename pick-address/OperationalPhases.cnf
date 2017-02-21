@@ -1,0 +1,13 @@
+ctmc = ctmc.cnf
+
+StateBehaviour1		= NetworkSymptomInjectorStateBehaviour
+StateBehaviourConfig1	= State1.Behaviour.cnf
+
+StateBehaviour2		= IdleBehaviour
+StateBehaviourConfig2	= empty
+
+
+
+
+
+

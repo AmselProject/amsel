@@ -1,0 +1,20 @@
+#
+# CTMC for the Zeus example. This CTMC has three states:
+#
+# State 1: Configure (for    ~10 min, on average)
+# State 2: Send data (for    ~5 min, on average)
+# State 3: Receive data (for ~1 min, on average)
+#
+
+numberOfStates = 3
+initialVector = 1.0, 0.0, 0.0
+
+rate 1,2 = 0.0008
+rate_1,3 = 0.0008
+
+rate_2,3 = 0.001
+rate_2,1 = 0.002
+
+rate_3,2 = 0.01
+rate_3,1 = 0.005
+

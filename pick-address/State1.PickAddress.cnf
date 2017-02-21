@@ -1,0 +1,25 @@
+numAddresses = 5
+
+address0 = address0.domain0.com
+address1 = address1.domain1.com
+address2 = address2.domain2.com
+address3 = address3.domain3.com
+address4 = address4.domain4.com
+
+port0 = 5550
+port1 = 5551
+port2 = 5552
+port3 = 5553
+port4 = 5554
+
+fallbackAddress = 127.0.0.1
+fallbackPort = 5555
+
+dryRun = true
+
+maxAttempts = 10
+
+# If random = true, addresses will be tried randomly.
+# If random = false, addresses will be tried sequentially (wrapping around
+# to the beginning when the end of the list is reached).
+random = false

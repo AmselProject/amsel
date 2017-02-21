@@ -1,0 +1,8 @@
+DataAndEventGenerator = RansomwareSymptomGenerator
+
+InterarrivalProcess       = ConstantInterarrivals
+InterarrivalProcessConfig = ConstantInterarrivals.cnf
+
+SymptomGenerator       = RansomwareSymptomInjector
+SymptomGeneratorConfig = RansomwareSymptomInjector.cnf
+

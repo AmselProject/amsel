@@ -1,0 +1,3 @@
+symbolClass = StringSymbol
+fileName = bd4s-kafka-generator/test.csv
+separator = ,

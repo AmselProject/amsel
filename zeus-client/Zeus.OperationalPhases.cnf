@@ -1,0 +1,15 @@
+ctmc = Behaviour.CtmcAsDtmc.cnf
+
+StateBehaviour1		= NetworkSymptomInjectorStateBehaviour
+StateBehaviourConfig1	= Configure.Behaviour.cnf
+
+StateBehaviour2		= NetworkSymptomInjectorStateBehaviour
+StateBehaviourConfig2	= Send.Behaviour.cnf
+
+StateBehaviour3		= NetworkSymptomInjectorStateBehaviour
+StateBehaviourConfig3	= Receive.Behaviour.cnf
+
+
+
+
+

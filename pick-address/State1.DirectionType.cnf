@@ -1,0 +1,7 @@
+#
+# Direction probabilities for the Configure phase. In this phase, the
+# malware only pulls data.
+#
+
+sendProbability = 0.0
+recvProbability = 1.0

@@ -1,0 +1,17 @@
+######## State 2 (Send) ########
+TrafficGenerator          = HttpsTrafficGenerator
+TrafficGeneratorConfig    = SendReceive.HttpsTrafficGenerator.cnf
+
+InterarrivalProcess       = PoissonProcess
+InterarrivalProcessConfig = Send.PoissonProcess.cnf
+
+PacketSizeProcess         = UniformRandomPacketSize
+PacketSizeProcessConfig   = Send.PacketSizes.cnf
+
+AddressProcess            = RandomIPAddress
+AddressProcessConfig      = SendReceive.RandomIPAddress.cnf
+
+TypeProcess               = DirectionTypeProcess
+TypeProcessConfig         = Send.DirectionType.cnf
+
+

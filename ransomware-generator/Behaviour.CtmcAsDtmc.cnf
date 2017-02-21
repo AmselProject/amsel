@@ -1,0 +1,21 @@
+#
+# CTMC for the Zeus example. This CTMC has three states:
+#
+# State 1: Configure (for    ~10 min, on average)
+# State 2: Send data (for    ~5 min, on average)
+# State 3: Receive data (for ~1 min, on average)
+#
+# This is the EmbeddedDTMC version of Behaviour.CTMC.cnf.
+#
+
+configurationFileFormat = ExplicitDTMC
+
+numberOfStates = 2
+initialVector = 1.0, 0.0
+
+intensities = 600, 300
+
+p_1,2 = 0.5
+p_2,1 = 0.5
+
+

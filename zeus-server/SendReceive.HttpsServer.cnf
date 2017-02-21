@@ -1,0 +1,5 @@
+address = localhost
+port    = 5555
+
+keystoreFile = server.keystore
+keystorePassword = malware

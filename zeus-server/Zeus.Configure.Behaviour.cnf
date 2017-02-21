@@ -1,0 +1,12 @@
+#
+# Server behaviour for the Configure phase. In this phase, the client connects
+# by HTTP.
+#
+
+OperationalPhasesProcess       = SimpleServerBehaviour
+OperationalPhasesProcessConfig = Configure.SimpleServerBehaviour.cnf
+
+configPathPrefix = zeus-server/
+classPathPrefix = org.hpe.labs.AmselRelease.
+
+runLength = 600

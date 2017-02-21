@@ -1,0 +1,7 @@
+OperationalPhasesProcess = MarkovModulatedBehaviour
+OperationalPhasesProcessConfig = OperationalPhases.cnf
+
+configPathPrefix = simple-dga/
+classPathPrefix = org.hpe.labs.AmselRelease.
+
+runLength = 300

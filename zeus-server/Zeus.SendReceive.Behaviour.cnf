@@ -1,0 +1,7 @@
+OperationalPhasesProcess       = SimpleServerBehaviour
+OperationalPhasesProcessConfig = SendReceive.SimpleServerBehaviour.cnf
+
+configPathPrefix = zeus-server/
+classPathPrefix = org.hpe.labs.AmselRelease.
+
+runLength = 600

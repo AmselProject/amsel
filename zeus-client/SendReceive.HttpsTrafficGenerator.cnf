@@ -1,0 +1,4 @@
+
+keystoreFile     = client.keystore
+keystorePassword = malware
+

@@ -1,0 +1,7 @@
+#
+# Direction probabilities for the Send phase. In this phase, the
+# malware only sends data.
+#
+
+sendProbability = 1.0
+recvProbability = 0.0

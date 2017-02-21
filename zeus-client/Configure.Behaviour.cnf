@@ -1,0 +1,16 @@
+######## State 1 (Configure) ########
+
+TrafficGenerator          = HttpTrafficGenerator
+TrafficGeneratorConfig    = empty
+
+InterarrivalProcess       = PoissonProcess
+InterarrivalProcessConfig = Configure.PoissonInterarrivals.cnf
+
+PacketSizeProcess         = UniformRandomPacketSize
+PacketSizeProcessConfig   = Configure.PacketSizes.cnf
+
+AddressProcess            = Dga1Address
+AddressProcessConfig      = Configure.Dga1Address.cnf
+
+TypeProcess               = DirectionTypeProcess
+TypeProcessConfig         = Configure.DirectionType.cnf

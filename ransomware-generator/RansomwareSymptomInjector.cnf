@@ -1,0 +1,15 @@
+BlockAccessInterarrivalProcess = ConstantInterarrivals
+BlockAccessInterarrivalProcessConfig = BlockAccessInterarrivals.cnf
+
+blockSize = 512
+processDelay = 0
+directories = tmp
+namePatterns = glob:**.dat
+
+encrypt = true
+key = 1
+
+requiredFlag = ransomware.encrypt
+
+
+

@@ -1,0 +1,7 @@
+OperationalPhasesProcess = MarkovModulatedBehaviour
+OperationalPhasesProcessConfig = Zeus.OperationalPhases.cnf
+
+configPathPrefix = zeus-client/
+classPathPrefix = org.hpe.labs.AmselRelease.
+
+runLength = 300

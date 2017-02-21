@@ -1,0 +1,12 @@
+#
+# CTMC for the Operate state. This CTMC has two states:
+#
+# State 1: Send data (for 5 min, on average)
+# State 2: Receive data (for 1 min, on average)
+#
+
+numberOfStates = 2
+initialVector = 1.0, 0.0
+rate_1,2 = 0.003
+rate_2,1 = 0.02
+

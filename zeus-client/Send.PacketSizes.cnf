@@ -1,0 +1,7 @@
+#
+# Packet-sizes for the Send phase range between 100KB and 5MB
+#
+
+lowerLimit = 102400
+upperLimit = 5242880
+

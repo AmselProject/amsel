@@ -1,0 +1,9 @@
+suffixes = .com .de .co.uk .hpl.hp.com
+port = 5554
+length = 10
+maxAttempts = 100
+characters = abcdefghijklmnopqrstuvwxyz0123456789-.
+fallbackAddress = 127.0.0.1
+
+dryRun = false
+requiredFlag = doDGA

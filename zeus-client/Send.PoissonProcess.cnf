@@ -1,0 +1,4 @@
+# Interarrival-times for the Configure state.
+# Set to be 10s, on average
+
+rate = 0.1

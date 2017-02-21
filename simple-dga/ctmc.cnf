@@ -1,0 +1,17 @@
+#
+# CTMC for the simple DGA example. This CTMC has two states.
+# The average state sojourn times are:
+#	State 1: 1 minute
+#	State 2: 5 minutes
+#
+
+configurationFileFormat = ExplicitDTMC
+
+numberOfStates = 2
+initialVector = 1.0, 0.0, 0.0
+
+intensities = 60, 300
+
+p_1,2 = 1.0
+p_2,1 = 1.0
+

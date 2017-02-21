@@ -1,0 +1,9 @@
+OperationalPhasesProcess = MarkovModulatedBehaviour
+OperationalPhasesProcessConfig = OperationalPhases.cnf
+
+configPathPrefix = pick-address/
+classPathPrefix = org.hpe.labs.AmselRelease.
+
+runLength = 300
+
+globalDryRun = false

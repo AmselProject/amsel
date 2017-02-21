@@ -1,0 +1,7 @@
+OperationalPhasesProcess = MarkovModulatedBehaviour
+OperationalPhasesProcessConfig = OperationalPhases.cnf
+
+classPathPrefix = org.hpe.labs.AmselRelease.
+configPathPrefix = ransomware-generator/
+
+runLength = 300

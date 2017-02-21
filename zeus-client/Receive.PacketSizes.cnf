@@ -1,0 +1,7 @@
+#
+# Packet-sizes for the Receive phase range between 10KB and 100KB
+#
+
+lowerLimit = 10240
+upperLimit = 102400
+

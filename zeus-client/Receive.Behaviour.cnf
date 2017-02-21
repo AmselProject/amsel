@@ -1,0 +1,18 @@
+
+######## State 3 (Receive) ########
+TrafficGenerator          = HttpsTrafficGenerator
+TrafficGeneratorConfig    = SendReceive.HttpsTrafficGenerator.cnf
+
+InterarrivalProcess       = PoissonProcess
+InterarrivalProcessConfig = Receive.PoissonProcess.cnf
+
+PacketSizeProcess         = UniformRandomPacketSize
+PacketSizeProcessConfig   = Receive.PacketSizes.cnf
+
+AddressProcess            = RandomIPAddress
+AddressProcessConfig      = SendReceive.RandomIPAddress.cnf
+
+TypeProcess               = DirectionTypeProcess
+TypeProcessConfig         = Receive.DirectionType.cnf
+
+

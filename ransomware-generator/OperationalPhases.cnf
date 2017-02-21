@@ -1,0 +1,8 @@
+ctmc = Behaviour.CtmcAsDtmc.cnf
+
+StateBehaviour1		= HostSymptomInjectorStateBehaviour
+StateBehaviourConfig1	= State1.Behaviour.cnf
+
+StateBehaviour2		= HostSymptomInjectorStateBehaviour
+StateBehaviourConfig2	= State1.Behaviour.cnf
+

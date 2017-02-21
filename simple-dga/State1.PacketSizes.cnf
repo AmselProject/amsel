@@ -1,0 +1,7 @@
+#
+# Packet-sizes for the Configure phase range between 1 KB and 1 MB.
+#
+
+lowerLimit = 1024
+upperLimit = 1048576
+
